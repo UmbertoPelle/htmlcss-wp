@@ -58,40 +58,83 @@ li:hover {
   background-color: red;
 }
 /* main */
-
 main{
   margin:10px 0;
 }
 
-.left-main{
-  float: left;
-  width: 23%;
-  /* debug */
-  height: 150px;
-  background-color: pink;
+main h2{
+  color: grey;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
+/* aside */
+
+/* regole generale float e width */
+aside{
+  float: left;
+  width: 23%;
+  border-radius: 10px;
+}
+
+/* bg color left */
+#aside-left{
+  background-color: white;
+}
+
+/* img nell'aside left */
+.icon{
+  float:left;
+  width: 25%;
+}
+
+.icon img{
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* float titolo aside left */
+.title-aside{
+  float:left;
+  width: 70%;
+}
+
+/* link a side */
+aside a{
+  color: green;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.link-aside{
+  margin-bottom: 5px;
+}
+
+/* regole sezioni aside */
+aside section{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+/* colonna centrale */
 .contenuto{
   float: left;
   width: 50%;
   margin: 0 2%;
-  /* debug */
-  height: 380px;
-  background-color: purple;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.right-main{
-  float: left;
-  width: 23%;
+.contenuto p{
+  font-size: 20px;
 }
 
-.right-main section{
-  margin-bottom: 10px;
-  /* debug */
-  height: 150px;
-  background-color: pink;
-}
-
+/* clear fix */
 .row::after{
   content: "";
   display: table;
