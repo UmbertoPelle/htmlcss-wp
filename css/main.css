@@ -37,6 +37,11 @@ header{
  font-size:70px;
 }
 
+#first-text{
+  border: solid 10px white;
+  padding-left: 15px;
+}
+
 #second-text{
   font-size: 30px;
 }
