@@ -96,7 +96,6 @@ aside{
 .icon{
   float:left;
   width: 25%;
-  vertical-align: middle;
 }
 
 .icon img{
@@ -109,6 +108,7 @@ aside{
 .title-aside{
   float:left;
   width: 70%;
+  margin-left: 3%;
 }
 
 /* link a side */
