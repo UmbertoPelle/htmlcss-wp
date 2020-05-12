@@ -22,16 +22,14 @@ header{
 .img-header{
   height: 95%;
   position: relative;
+  background-image: url("../img/forest.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 /* altezza nav */
 header nav {
   height: 5%;
-}
-
-.img-header img{
-  height:100%;
-  width: 100%
 }
 
 /* centratura della scritta */
