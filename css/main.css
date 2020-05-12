@@ -71,6 +71,7 @@ li{
 
 li:hover {
   background-color: red;
+  cursor: pointer;
 }
 /* main */
 main{
@@ -81,6 +82,11 @@ main h2{
   color: grey;
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+main h2:hover{
+  color: green;
+  cursor: pointer;
 }
 
 /* aside */
@@ -121,6 +127,10 @@ aside a{
   color: green;
   text-decoration: none;
   font-size:20px;
+}
+
+aside a:hover{
+  text-decoration: underline;
 }
 
 .link-aside{
