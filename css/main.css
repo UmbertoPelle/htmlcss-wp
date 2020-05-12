@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header{
+  /* debug */
+  background-color: yellow;
+  height: 150px;
+}
+
+/* main */
+
+main{
+  margin:10px 0;
+}
+
+.left-main{
+  float: left;
+  width: 23%;
+  /* debug */
+  height: 150px;
+  background-color: pink;
+}
+
+.contenuto{
+  float: left;
+  width: 50%;
+  margin: 0 2%;
+  /* debug */
+  height: 380px;
+  background-color: purple;
+}
+
+.right-main{
+  float: left;
+  width: 23%;
+}
+
+.right-main section{
+  margin-bottom: 10px;
+  /* debug */
+  height: 150px;
+  background-color: pink;
+}
+
+#globale::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+
+footer{
+  /* debug */
+  background-color: lightblue;
+  height: 100px;
+}
